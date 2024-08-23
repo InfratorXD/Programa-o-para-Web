@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align = "center">Utilizando "if-else"</h1> <!--Título centralizado, título grande--> <!--O align está vermelho pois não é algo para se usar no HTML, e sim no CSS, então indica um "erro" do lugar, assim se dizendo-->
+
+    <h2>Programa para verificar a idade de uma pessoa</h2> <!--Título menor-->
+
+    <!--Formulário-->
+    <form id = "IdadeFormulario"> <!--ID: navegação-->
+        <label for = "NascimentoInput">Digite seu ano de nascimento: </label>
+        <input type = "number" id = "NascimentoInput" name = "NascimentoInput" required> <!--Type: tipo, Required: Obrigatorio-->
+        <button type = "button" id = "VerificarButton">Verificar</button> <!--Criou um botão de verificação-->
+    </form>
+
+    <p1 id = "resultado"></p1>
+
+
+    <script src = "script.js"></script> 
+
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.829);
+            color: white;
+            h1{
+                font-size: 50px;
+            }
+
+            h2{
+                font-size: 30px;}
+
+            p1{
+            font-size: 20px;
+            }
+        }
+    </style>
+</body>
+</html>
