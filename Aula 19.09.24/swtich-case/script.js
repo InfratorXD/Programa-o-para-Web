@@ -17,7 +17,7 @@ botao.onclick = function(){ //Usa-se o VAR dentro de função, o LET usa fora
             resultado.textContent = ("Sua temperatura em Celsius " + temperatura + " em Fahrenheit é " + resultadoConversao);
             //document.write("Sua temperatura em Celsius " + temperatura + " em Fahrenheit é " + resultadoConversao);
 
-            //Usa-se o textContent porque ele puxa o ID, além de printar dentro da propria página, sem criar outra
+            //Usa o textContent porque ele puxa o ID, além de printar dentro da propria página, sem criar outra
             //O document.write não usa o ID, já printa direto
         break;
 
